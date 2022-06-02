@@ -4842,7 +4842,7 @@ body#root {
   width: calc((100% - 2.5rem) / 4);
   position: relative;
   padding: 1.875rem 2.5rem;
-  border: 1px solid rgba(33, 34, 35, 0.2);
+  border: 1px solid hsla(210deg, 2.9%, 13.3%, 0.2);
 }
 .document:nth-child(2) {
   margin: 0 0.75rem;
@@ -5097,7 +5097,7 @@ body#root {
     width: 100%;
   }
   .documents .select__title {
-    border: 1px solid rgba(102, 102, 102, 0.2);
+    border: 1px solid hsla(0deg, 0%, 40%, 0.2);
     color: #656565;
     color: var(--gray-mid);
   }

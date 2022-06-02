@@ -7062,6 +7062,7 @@ body#root {
      object-fit: cover;
 }
 .post__more {
+  display: block;
   font-size: 1rem;
   line-height: 145%;
   -webkit-text-decoration-line: underline;
@@ -7387,10 +7388,6 @@ body#root {
     height: 70vw;
   }
 
-  .news__button {
-    display: none;
-  }
-
   .posts {
     margin-top: 1.875rem;
   }
@@ -7518,7 +7515,7 @@ body#root {
     margin: 0 0 1.25rem;
   }
   .contact__position {
-    margin: 5.625rem 0 0.625rem;
+    margin: 1.625rem 0 0.625rem;
     font-size: 0.875rem;
     line-height: 1.43;
   }
@@ -7526,6 +7523,9 @@ body#root {
     font-size: 0.875rem;
     line-height: 1.43;
     text-decoration: none;
+  }
+  .contact__image {
+    margin-top: 1.625rem;
   }
 }
 body#root {
@@ -7824,7 +7824,7 @@ body#root {
   }
   .catalog .selects__image {
     border-radius: 0.9375rem;
-    background-color: rgba(196, 196, 196, 0.2);
+    background-color: hsla(0deg, 0%, 76.9%, 0.2);
     width: 1.75rem;
     height: 1.75rem;
   }

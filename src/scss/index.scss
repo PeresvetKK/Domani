@@ -310,6 +310,7 @@ body#root {
   }
 
   &__more {
+    display: block;
     font-size: 1rem;
     line-height: 145%;
     text-decoration-line: underline;
@@ -649,7 +650,7 @@ body#root {
 
   .news {
     &__button {
-      display: none;
+      // display: none;
     }
   }
   .posts {
@@ -779,7 +780,7 @@ body#root {
       margin: 0 0 1.25rem;
     }
     &__position {
-      margin: 5.625rem 0 0.625rem;
+      margin: 1.625rem 0 0.625rem;
       font-size: 0.875rem;
       line-height: 1.43;
     }
@@ -788,6 +789,9 @@ body#root {
       font-size: 0.875rem;
       line-height: 1.43;
       text-decoration: none;
+    }
+    &__image{
+      margin-top: 1.625rem;
     }
   }
 }

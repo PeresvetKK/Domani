@@ -4943,7 +4943,7 @@ body#root {
     margin: 0 0 1.25rem;
   }
   .contact__position {
-    margin: 5.625rem 0 0.625rem;
+    margin: 1.625rem 0 0.625rem;
     font-size: 0.875rem;
     line-height: 1.43;
   }
@@ -4951,6 +4951,9 @@ body#root {
     font-size: 0.875rem;
     line-height: 1.43;
     text-decoration: none;
+  }
+  .contact__image {
+    margin-top: 1.625rem;
   }
 
   .map {

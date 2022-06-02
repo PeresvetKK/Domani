@@ -101,6 +101,7 @@ body#root {
 
 .gallery {
   width: 100%;
+  min-height: 268px;
   margin-top: 1rem;
   margin-bottom: 1.0625rem;
   border-bottom: 1px solid rgba(196, 196, 196, 0.2);
@@ -183,7 +184,7 @@ body#root {
     margin-bottom: 1.1875rem;
     position: relative;
     z-index: 1;
-
+    min-height: 350px;
     &__carousel {
       margin-top: 12vw;
       position: absolute;
@@ -229,6 +230,9 @@ body#root {
       }
       &__description {
         margin-top: 50vw;
+      }
+      .gallery{
+        min-height: 395px;
       }
     }
 

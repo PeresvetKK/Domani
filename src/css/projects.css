@@ -5434,7 +5434,7 @@ body#root {
   }
   .projects .selects__image {
     border-radius: 0.9375rem;
-    background-color: rgba(196, 196, 196, 0.2);
+    background-color: hsla(0deg, 0%, 76.9%, 0.2);
     width: 1.75rem;
     height: 1.75rem;
   }

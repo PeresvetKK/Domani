@@ -5496,6 +5496,7 @@ body#root {
 
   .cooperation {
     margin-bottom: 15.3125rem;
+    max-height: none;
   }
   .cooperation__title {
     font-size: 1.5rem;
@@ -5532,52 +5533,24 @@ body#root {
   .cooperation__button {
     margin-top: 2.5rem;
   }
-}
-@media (max-width: 768px) and (min-width: 300px) and (max-width: 510px) {
-  .contacts {
-    margin-top: 170%;
-  }
-}
-@media (max-width: 768px) and (min-width: 511px) {
-  .contacts {
-    margin-top: 58%;
-  }
-}
-@media (max-width: 768px) and (min-width: 300px) and (max-width: 510px) {
-  .contacts__main {
-    padding-top: 507px;
-  }
-}
-@media (max-width: 768px) and (min-width: 511px) {
-  .contacts__main {
-    margin-top: 340px;
-  }
-}
-@media (max-width: 768px) {
+
   .contacts__title {
     margin-bottom: 1.875rem;
   }
-}
-@media (max-width: 768px) {
   .contacts__text {
     font-size: 0.875rem;
     line-height: 1.43;
   }
-}
-@media (max-width: 768px) {
   .contacts__phone {
     font-size: 1.125rem;
     line-height: 1.4;
     display: block;
     margin: 1.25rem 0 0.625rem;
   }
-}
-@media (max-width: 768px) {
   .contacts__other {
     display: block;
   }
-}
-@media (max-width: 768px) {
+
   .contact {
     width: 100%;
     margin-bottom: 1.25rem;
@@ -5586,7 +5559,7 @@ body#root {
     margin: 0 0 1.25rem;
   }
   .contact__position {
-    margin: 5.625rem 0 0.625rem;
+    margin: 1.625rem 0 0.625rem;
     font-size: 0.875rem;
     line-height: 1.43;
   }
@@ -5595,8 +5568,10 @@ body#root {
     line-height: 1.43;
     text-decoration: none;
   }
-}
-@media (max-width: 768px) {
+  .contact__image {
+    margin-top: 1.625rem;
+  }
+
   .map {
     display: none;
   }
